@@ -1,0 +1,161 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "5ca4bb02-ec98-4cbf-952c-21f1c45a095c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "red\n",
+      "BMW\n"
+     ]
+    }
+   ],
+   "source": [
+    "class Car:\n",
+    "    colour=\"red\"\n",
+    "    brand=\"BMW\"\n",
+    "    SPEED=120\n",
+    "car1=Car\n",
+    " \n",
+    "print(car1.colour)\n",
+    "print(car1.brand)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 128,
+   "id": "26d1993b-7a3a-4632-ab26-4ebd039ca6ea",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "IndentationError",
+     "evalue": "expected an indented block after function definition on line 5 (3941513837.py, line 7)",
+     "output_type": "error",
+     "traceback": [
+      "  \u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[128]\u001b[39m\u001b[32m, line 7\u001b[39m\n\u001b[31m    \u001b[39m\u001b[31mprint(\"Hello my name is\"+self.name)\u001b[39m\n                                       ^\n\u001b[31mIndentationError\u001b[39m\u001b[31m:\u001b[39m expected an indented block after function definition on line 5\n"
+     ]
+    }
+   ],
+   "source": [
+    "class Person:\n",
+    "    def __init__(self,name,age):\n",
+    "       self.name=name\n",
+    "       self.age=age\n",
+    "    def __myfunc__(self):\n",
+    "        \n",
+    "print(\"Hello my name is\"+self.name)\n",
+    "p1=Person(\"Arun\",26)\n",
+    "p1.myfunc()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "5c60a5e7-d7e8-4041-aaa1-73d105f2db28",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "red\n",
+      "BMW\n"
+     ]
+    }
+   ],
+   "source": [
+    "class MyCar:\n",
+    "    colour=\"red\"\n",
+    "    brand=\"BMW\"\n",
+    "    SPEED=120\n",
+    "print(MyCar.colour)\n",
+    "print(MyCar.brand)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 120,
+   "id": "0b0ece83-a36e-41b7-ac3a-ee87c8a0dc21",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Kavita\n",
+      "32\n"
+     ]
+    }
+   ],
+   "source": [
+    "class Student:\n",
+    "     def __init__(self,name,age):\n",
+    "         self.name = name\n",
+    "         self.age = age\n",
+    "s1=Student(\"Kavita\",32)\n",
+    "print(s1.name)\n",
+    "print(s1.age)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "3f4ae4f0-dfd7-4d98-a9d7-4953b1eb97cc",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "IndentationError",
+     "evalue": "expected an indented block after function definition on line 5 (1336749364.py, line 6)",
+     "output_type": "error",
+     "traceback": [
+      "  \u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[14]\u001b[39m\u001b[32m, line 6\u001b[39m\n\u001b[31m    \u001b[39m\u001b[31mprint(\"hello my name is\"+self.name)\u001b[39m\n                                                                                                         ^\n\u001b[31mIndentationError\u001b[39m\u001b[31m:\u001b[39m expected an indented block after function definition on line 5\n"
+     ]
+    }
+   ],
+   "source": [
+    "class Person:\n",
+    "     def __init__(self,name,age):\n",
+    "         self.name=name\n",
+    "         self.age=age\n",
+    "     def myfunc(self):\n",
+    "print(\"hello my name is\"+self.name)                                                                  \n",
+    "p1=person(\"Arun\",26)\n",
+    "p1.myfunc()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "919630cc-d32a-409f-8486-7c574c8b9b44",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
